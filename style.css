@@ -107,3 +107,18 @@
     color: hsl(259, 100%, 65%);
 
   }
+
+  @media screen and (max-width:700px) {
+    .date{
+      width: 95%;
+      min-width: auto;
+    }
+  }
+  @media screen and (max-width:550px) {
+    button[type=submit]{
+      position: absolute;
+      right: auto;
+      left: calc(50% - 44px);
+      
+    }
+  }
