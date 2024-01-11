@@ -19,15 +19,15 @@
   <form id="dateForm">
     <div>
       <p>Day</p>
-      <input type="number" required name="day" id="day" placeholder="DD">
+      <input type="number" min="1" max="31" required name="day" id="day" placeholder="DD">
     </div>
     <div>
       <p>Month</p>
-      <input type="number" required name="month" id="month" placeholder="MM">
+      <input type="number" min="1" max="12" required name="month" id="month" placeholder="MM">
     </div>
     <div>
       <p>Year</p>
-      <input type="number" required name="year" id="year" placeholder="YYYY">
+      <input type="number" min="1" max="2024" required name="year" id="year" placeholder="YYYY">
     </div>
     <button type="submit"><img src="assets/images/icon-arrow.svg" alt="arrow icon"></button>
   </form>
